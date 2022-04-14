@@ -1,0 +1,196 @@
+.wrapper-in {
+    width: 90%;
+    min-height: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: silver;
+}
+
+.header {
+    background-color: tomato;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-content {
+    height: 80%;
+    /* background-color: aqua; */
+    font-size: 26px;
+    position: relative;
+}
+
+.pc {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lawngreen;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(https://cdn.shopify.com/s/files/1/0400/9266/3973/products/1500x1500_09_0ac069ad-60cb-4e2e-8b36-659388cd6698_1024x1024.jpg?v=1624612082);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.motherboard {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 110%;
+    left: 105%;
+    background-image: url(/images/pc_components/motherboard.png);
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cpu {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    bottom: 100%;
+    left: -20%;
+    background-image: url(/images/pc_components/cpu.png);
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gpu {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: -20%;
+    left: 110%;
+    background-image: url(/images/pc_components/gpu.png);
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fan {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: -40%;
+    background-image: url(/images/pc_components/fan.png);
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ssd {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 120%;
+    background-image: url(/images/pc_components/fan.png);
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hdd {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 120%;
+    background-image: url(/images/pc_components/fan.png);
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ram {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    background-image: url(/images/pc_components/ram.png);
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.power-supply {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: -30%;
+    background-image: url(/images/pc_components/fan.png);
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.case {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    background-image: url(/images/pc_components/case.png);
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 120%;
+    left: -20%;
+    background-image: url(/images/pc_components/fan.png);
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.motherboard,
+.cpu,
+.gpu,
+.fan,
+.ssd,
+.hdd,
+.ram,
+.power-supply,
+.case,
+.light {
+    color: white;
+    text-shadow: 2px 2px 8px #002aff;
+}
