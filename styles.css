@@ -166,7 +166,7 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+/*
 .light {
     width: 100px;
     height: 100px;
@@ -180,7 +180,7 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+*/
 .motherboard,
 .cpu,
 .gpu,
